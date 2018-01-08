@@ -5,7 +5,7 @@ import blockchain
 from blockchain import Blockchain
 
 def format_bc(blockchain):
-    """
+    """Formats the output of the blockchain
     """
     for block in blockchain:
         print(block)
